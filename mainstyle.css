@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%; /* makes all content take up 80% no matter how wide the page is */
+    margin: 0 auto; /* removes top and bottom margins, left/right margins automatically determined */
+}
+
+header h1 {
+	text-align: right;
+	margin-right: 15px;
+}
+
+header {
+		background-color: #fff;
+		padding-top: 10px;
+}
+
+nav{
+	background-color: #ccc;
+	color:#000;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	    text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 20px;
+	color #000;
+}
+
+nav ul li a:link, nav ul li a:active,
+nav ul li a:hover, nav ul li a:visited{
+	text-decoration: none;
+	color:#000;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+
+
+article {
+    width: 48%; /* margin of 1% on both sides means that each can only be 48% wide */
+    float: left;
+    margin: 1%;
+}
+
+article img {
+    max-width: 100%;
+}
