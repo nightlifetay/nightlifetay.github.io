@@ -5,6 +5,7 @@ body {
 .container {
     width: 80%; /* makes all content take up 80% no matter how wide the page is */
     margin: 0 auto; /* removes top and bottom margins, left/right margins automatically determined */
+    position: fixed;
 }
 
 header h1 {
