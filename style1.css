@@ -50,11 +50,15 @@ nav ul li a:hover {
 
 
 article {
-    width: 48%; /* margin of 1% on both sides means that each can only be 48% wide */
-    float: left;
+    width: 100%; /* margin of 1% on both sides means that each can only be 48% wide */
+    float: center;
     margin: 1%;
 }
 
 article img {
     max-width: 100%;
+}
+
+#centered-text{
+	text-align: center;
 }
